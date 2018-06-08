@@ -1,0 +1,14 @@
+author: mongoose-os
+description: Si7005 Temperature and Humidity Sensor Driver
+version: 1.0
+
+includes:
+  - include
+
+sources:
+  - src
+
+libs:
+  - origin: https://github.com/mongoose-os-libs/i2c
+
+manifest_version: 2017-09-29
